@@ -1,6 +1,7 @@
 body{
     display: grid;
     background-color:rgb(255, 255, 255);
+   
     
     
 }
@@ -74,8 +75,9 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
-    text-align: end;
-    width: 100%;
+    text-align: center;
+    text-size-adjust: inherit;
+    width: 1550px;
 
 }
 footer > p{
@@ -83,11 +85,12 @@ footer > p{
     font-family: initial;
     align-items: center;
     text-align: center;
+    
 }
 .experinase list > .text-after-sidebar{
        
         text-align: right;
-        font-size: 16px; 
+        font-size: 160px; 
         color: #000000; 
         float: right; 
         display: flex;
@@ -99,6 +102,7 @@ footer > p{
 
     }
 .text-after-sidebar > hr{
+    padding: px;
     width:auto;
     height: 3px;
     background: #030000;
@@ -112,5 +116,25 @@ footer > p{
   gap: 10px;
   display: flex;
 }
+.intiation{
+    padding-bottom: 200px;
+
+
+}
+.text-after-sidebar{
+    padding-inline-start: 430px;
+}
+@media screen and (max-width: 768px) {
+    /* Styles for screens less than or equal to 768px wide (typical mobile) */
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Styles for screens between 768px and 992px wide (typical tablet) */
+  }
+  
+  @media screen and (min-width: 992px) {
+    /* Styles for screens greater than or equal to 992px wide (typical desktop) */
+  }
+  
 
     
